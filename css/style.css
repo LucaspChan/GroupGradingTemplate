@@ -1,0 +1,39 @@
+.inlineText{
+    display: inline;
+}
+
+.bgColor{
+    background-color: rgb(78, 74, 74);
+}
+
+.formcolor{
+    background-color: white;
+
+}
+
+.bottom{
+    padding-bottom: 500px;
+
+}
+
+.formlength{
+    width: 40%;
+}
+
+.courseNumber{
+    margin-bottom: 30px;
+}
+
+.groupNumber{
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.topSpace {
+    margin-top: 30px;
+
+}
+
+.rcorners {
+    border-radius: 25px;
+}
