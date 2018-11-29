@@ -8,12 +8,10 @@
 
 .formcolor{
     background-color: white;
-
 }
 
 .bottom{
     padding-bottom: 500px;
-
 }
 
 .formlength{
@@ -31,9 +29,23 @@
 
 .topSpace {
     margin-top: 30px;
-
 }
 
 .rcorners {
     border-radius: 25px;
+}
+
+.loginSize{
+    width: 40%;
+}
+
+
+.toppadding{
+    padding-top: 20px;
+}
+
+.signinpadding{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-right: 25%;
 }

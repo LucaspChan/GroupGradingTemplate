@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
-		<title>Material Design Bootstrap</title>
+		<title>Login</title>
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<!-- Bootstrap core CSS -->
@@ -57,55 +57,32 @@
 			grade box
 			submit
 		-->
-		<div class="container formcolor topSpace rcorners">
-			<!-- Group number -->
-			<div class="groupNumber text-center">
-				<h2 class="inlineText font-weight-bold">Group Number:</h2>
-				<h2 class="inlineText">1</h2>
-			</div>
-
-			<!-- Course number -->
-			<div class="courseNumber text-center ">
-				<h2 class="font-weight-bold inlineText">Course Number:</h2>
-				<h2 class="inlineText">COMP 4976</h2>
-			</div>
-
-			<!-- Group Members -->
-			<div class="courseNumber"><h2 class="font-weight-bold  ">Group Members:</h2></div>
-
-			<!-- Form -->
-			<!--
-				Default horizontal form
-				cant seem to center the input fields
-			-->
-			<form class=" justify-content-center">
-				<div class="form-group  text-center row formlength">
-					<!-- student input -->
-					<label for="studentname1" class="col-sm-2 col-form-label font-weight-bold ">Sean</label>
-					<div class="col-sm-10">
-						<input type="score" class="form-control" id="studentname1" placeholder="Score" />
-					</div>
-				</div>
-				<div class="form-group row formlength">
-					<!-- Default input -->
-					<label for="studentname2" class="col-sm-2 col-form-label font-weight-bold ">Xian</label>
-					<div class="col-sm-10">
-						<input type="score" class="form-control" id="studentname2" placeholder="Score" />
-					</div>
-				</div>
-				<div class="form-group row formlength">
-					<!-- Default input -->
-					<label for="studentname3" class="col-sm-2 col-form-label font-weight-bold ">Xan</label>
-					<div class="col-sm-10">
-						<input type="score" class="form-control" id="studentname3" placeholder="Score" />
-					</div>
+		<div class="container formcolor topSpace rcorners loginSize">
+			<!-- Default horizontal form -->
+			<h2 class="font-weight-bold toppadding signinpadding">Teacher Sign in:</h2>
+			<form>
+				<!-- Grid row -->
+				<div class="signinpadding">
+					<label for="inputPassword">Email</label>
+					<input type="email" id="inputEmail" class="form-control" aria-describedby="passwordHelpBlock" />
 				</div>
 				<!-- Grid row -->
-				<div class="form-group row text-center  ">
-					<div class="col-sm-12"><button type="submit" class="btn btn-primary btn-md">Submit</button></div>
+				<div class="signinpadding">
+					<label for="inputPassword">Password</label>
+					<input
+						type="password"
+						id="inputPassword"
+						class="form-control"
+						aria-describedby="passwordHelpBlock"
+					/>
+				</div>
+				<!-- Grid row -->
+				<div class="form-group row signinpadding">
+					<div><button type="submit" class="btn btn-primary btn-md">Sign in</button></div>
 				</div>
 				<!-- Grid row -->
 			</form>
+			<!-- Default horizontal form -->
 		</div>
 		<!-- Default horizontal form -->
 		<!-- Form Ends -->
