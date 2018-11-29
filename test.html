@@ -85,79 +85,74 @@
         <h2 class="inlineText">COMP 4976</h2>
       </div>
 
-      <div class="container text-center">
-        <!-- Group Members -->
-        <div class="courseNumber">
-          <h2 class="font-weight-bold  ">Group Members:</h2>
+      <!-- Group Members -->
+      <div class="courseNumber">
+        <h2 class="font-weight-bold  ">Group Members:</h2>
+      </div>
+
+      <!-- Form -->
+      <!--
+        Default horizontal form
+        cant seem to center the input fields
+      -->
+      <form class=" justify-content-center">
+        <div class="form-group  text-center row formlength">
+          <!-- student input -->
+          <label
+            for="studentname1"
+            class="col-sm-2 col-form-label font-weight-bold "
+            >Sean</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="score"
+              class="form-control"
+              id="studentname1"
+              placeholder="Score"
+            />
+          </div>
         </div>
-
-        <!-- Form -->
-        <!--
-          Default horizontal form
-          cant seem to center the input fields
-		-->
-		<div class="container centerCourse">
-        <form class=" justify-content-center">
-          <div class="form-group  text-center row formlength">
-            <!-- student input -->
-            <label
-              for="studentname1"
-              class="col-sm-2 col-form-label font-weight-bold "
-              >Sean</label
-            >
-            <div class="col-sm-10">
-              <input
-                type="score"
-                class="form-control"
-                id="studentname1"
-                placeholder="Score"
-              />
-            </div>
+        <div class="form-group row formlength">
+          <!-- Default input -->
+          <label
+            for="studentname2"
+            class="col-sm-2 col-form-label font-weight-bold "
+            >Xian</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="score"
+              class="form-control"
+              id="studentname2"
+              placeholder="Score"
+            />
           </div>
-          <div class="form-group row formlength">
-            <!-- Default input -->
-            <label
-              for="studentname2"
-              class="col-sm-2 col-form-label font-weight-bold "
-              >Xian</label
-            >
-            <div class="col-sm-10">
-              <input
-                type="score"
-                class="form-control"
-                id="studentname2"
-                placeholder="Score"
-              />
-            </div>
+        </div>
+        <div class="form-group row formlength">
+          <!-- Default input -->
+          <label
+            for="studentname3"
+            class="col-sm-2 col-form-label font-weight-bold "
+            >Xan</label
+          >
+          <div class="col-sm-10">
+            <input
+              type="score"
+              class="form-control"
+              id="studentname3"
+              placeholder="Score"
+            />
           </div>
-          <div class="form-group row formlength">
-            <!-- Default input -->
-            <label
-              for="studentname3"
-              class="col-sm-2 col-form-label font-weight-bold "
-              >Xan</label
-            >
-            <div class="col-sm-10">
-              <input
-                type="score"
-                class="form-control"
-                id="studentname3"
-                placeholder="Score"
-              />
-            </div>
-		  </div>
+        </div>
+        <!-- Grid row -->
+        <div class="form-group row text-center  ">
+          <div class="col-sm-12">
+            <button type="submit" class="btn btn-primary btn-md">Submit</button>
+          </div>
 		</div>
-
-          <!-- Grid row -->
-          <div class="form-group row text-center subButton ">
-            <div class="col-sm-12">
-              <button type="submit" class="btn btn-primary btn-md">
-                Submit
-              </button>
-            </div>
-          </div>
-          <!-- Grid row -->
-        </form>
+	</div>
+        <!-- Grid row -->
+      </form>
     </div>
     <!-- Default horizontal form -->
     <!-- Form Ends -->
